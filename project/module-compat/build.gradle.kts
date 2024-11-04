@@ -1,6 +1,7 @@
 repositories {
     maven("https://repo.codemc.org/repository/maven-public/") // BentoBox
     maven("https://repo.essentialsx.net/releases/") // EssentialsX
+    maven("https://maven.citizensnpcs.co/repo")
 }
 
 dependencies {
@@ -12,7 +13,7 @@ dependencies {
     compileOnly("net.essentialsx:EssentialsX:2.19.7") // EssentialsX
     compileOnly("public:QuickShop-Hikari:6.2.0.6") // QuickShop-Hikari
     compileOnly("public:QuickShop-Reremake:5.1.2.5") // QuickShop-Reremake
-    compileOnly("public:CitizensAPI:2.0.35") // Citizens
+    compileOnly("net.citizensnpcs:CitizensAPI:2.0.35") // Citizens
     compileOnly("ink.ptms:um:1.0.9")
 }
 
