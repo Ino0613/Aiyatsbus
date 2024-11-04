@@ -31,7 +31,7 @@ taboolib {
 
 dependencies {
     taboo("ink.ptms:um:1.0.9")
-    taboo("com.github.Redempt:Crunch:1.0.7")
+    taboo("com.github.Redempt:Crunch:1.1")
 }
 
 tasks {
