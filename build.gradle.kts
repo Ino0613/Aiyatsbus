@@ -43,6 +43,7 @@ subprojects {
         mavenLocal()
         mavenCentral()
         maven("https://repo.papermc.io/repository/maven-public/")
+        maven("https://maven.citizensnpcs.co/repo")
         maven("https://redempt.dev")
 
     }
