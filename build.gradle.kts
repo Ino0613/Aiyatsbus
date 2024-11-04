@@ -43,9 +43,8 @@ subprojects {
         mavenLocal()
         mavenCentral()
         maven("https://repo.papermc.io/repository/maven-public/")
-        maven("http://mcstarrysky.com:8081/repository/releases/") {
-            isAllowInsecureProtocol = true
-        }
+        maven("https://redempt.dev")
+
     }
     // 全局依赖
     dependencies {
